@@ -3,45 +3,21 @@ margin: 0;
 font-family: 'Montserrat', sans-serif;
 }
 
-.about {
+.grid__item.one-whole.bg-2 {
 color: slategrey;
 }
 
-.nav-li a {
-color: white;
-font-size: 12px;
+element.style {
 }
-
-.nav-li:first-child {
-margin-left: 0;
-}
-
-.desktop-nav {
-display: -webkit-inline-box;
-list-style: none;
-float: right;
-}
-
-.nav-li {
-margin-left: 25px;
-}
-
-.desktop-nav {
-display: -webkit-inline-box;
-list-style: none;
-float: right;
-margin-top: 48px;
-}
-
 .rachelle-name {
-font-size: 120%;
-margin: 0 auto;
-padding-top: 44px;
-letter-spacing: 12px;
-width: 50%;
-float: left;
+font-size: 210%;
+margin-left: 100px;
+padding-top: 28px;
+letter-spacing: 15px;
+width: auto;
+margin-top: 0px;
+float: right;
 }
-
 .content {
 position: relative;
 background: #b4bad2;
@@ -55,7 +31,7 @@ background-color: rgb(126, 126, 126);
 margin-left: 44%;
 border: 4px white solid;
 width: 147px;
-border-bottom-right-radius: 23px;
+border-bottom-left-radius: 23px;
 letter-spacing: 6px;
 }
 
@@ -63,10 +39,7 @@ letter-spacing: 6px;
 background: #FFFFFF;
 }
 
-.rachelle-header {
-width: 1024px;
-margin: 0 auto;
-}
+
 
 
 .menu-wrap a {
@@ -120,7 +93,6 @@ background: #6C7AB3;
 	font-size: 1.5em;
 	color: transparent;
 	background: transparent;
-	visibility: hidden;
 }
 
 .menu-button::before {
@@ -313,14 +285,13 @@ width: 118%;
 }
 
 .about-center-img {
-width: 300px;
+width: 30%;
 font-size: 144px;
-float: right;
+float: left;
 margin-top: 10%;
 }
-
 .p-rachelle {
-font-size: 320%;
+font-size: 360%;
 text-align: start;
 font-weight: lighter;
 font-stretch: condensed;
