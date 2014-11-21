@@ -2,7 +2,10 @@ body {
 margin: 0;
 font-family: 'Montserrat', sans-serif;
 }
-
+.hire {
+width: 1024px;
+margin: 0 auto;
+}
 .about {
 color: slategrey;
 }
@@ -47,16 +50,17 @@ position: relative;
 background: #b4bad2;
 height: 105px;
 }
+
 .hire-me {
 font-weight: lighter;
 font-size: 16px;
 padding: 10px;
 background-color: rgb(126, 126, 126);
-margin-left: 44%;
 border: 4px white solid;
 width: 147px;
-border-bottom-right-radius: 23px;
+border-bottom-left-radius: 23px;
 letter-spacing: 6px;
+float: right;
 }
 
 .container {
