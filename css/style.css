@@ -298,10 +298,9 @@ margin: auto;
 }
 
 
-p.grid__item.one-quarter {
-float: right;
-margin-top: 100px;
-margin-left: 28px;
+.grid__item.one-quarter {
+float: left;
+margin-right: 50px;
 }
 
 .cs50-img {
@@ -344,6 +343,14 @@ width: 1024px;
 margin: auto;
 }
 
+.p-cs50:last-child {
+padding-bottom: 100px;
+}
+
 .p-cs50 {
 font-size: 24px;
+}
+
+.p-cs50:first-child {
+padding-top: 133px;
 }
