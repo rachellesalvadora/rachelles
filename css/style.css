@@ -379,10 +379,11 @@ text-align: center;
 /*************************
 Playground
 **************************/
-.grid__item.one-whole.bg-4 {
+
+#playground {
 background-image: url("img/bg-playground.jpeg");
 background-repeat: no-repeat;
-background-size: contain;
+background-size: cover;
 background-attachment: scroll;
 }
 
