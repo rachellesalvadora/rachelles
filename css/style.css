@@ -2,9 +2,11 @@ body {
 margin: 0;
 font-family: 'Montserrat', sans-serif;
 }
+
 .hire {
 width: 1024px;
 margin: 0 auto;
+height: 60px;
 }
 .about {
 color: slategrey;
@@ -305,7 +307,7 @@ margin: auto;
 .grid__item.one-quarter {
 float: left;
 margin-right: 50px;
-margin-top: 0;
+margin-top: 25px;
 }
 
 .cs50-img {
@@ -313,7 +315,8 @@ width: 308px;
 }
 
 img.about-img {
-width: 118%;
+width: 35%;
+float: right;
 }
 
 .about-center-img {
@@ -330,7 +333,10 @@ font-weight: lighter;
 font-stretch: condensed;
 font-family: 'Raleway', sans-serif;
 width: 67%;
+padding-top: 60px;
+padding-bottom: 55px;
 }
+
 /*********************
 CS50
 *********************/
@@ -350,6 +356,7 @@ margin: auto;
 
 .p-cs50:first-child {
 padding-top: 133px;
+margin-bottom: 0;
 }
 
 .p-cs50:last-child {
@@ -360,8 +367,8 @@ font-size: 17px;
 .p-cs50 {
 font-size: 30px;
 text-align: center;
+margin-top: 22px;
 }
-
 
 
 .challenge {
@@ -369,3 +376,22 @@ font-size: 50px;
 text-align: center;
 }
 
+/*************************
+Playground
+**************************/
+.grid__item.one-whole.bg-4 {
+background-image: url("img/bg-playground.jpeg");
+background-repeat: no-repeat;
+background-size: contain;
+background-attachment: scroll;
+}
+
+img.playground-img {
+width: 100%;
+visibility: hidden;
+}
+
+#playground {
+color: turquoise;
+background: transparent;
+}
