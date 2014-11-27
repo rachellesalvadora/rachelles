@@ -381,7 +381,7 @@ Playground
 **************************/
 
 #playground {
-background-image: url("img/bg-playground.jpeg");
+background-image: url("../img/bg-playground.jpeg");
 background-repeat: no-repeat;
 background-size: cover;
 background-attachment: scroll;
@@ -395,4 +395,6 @@ visibility: hidden;
 #playground {
 color: turquoise;
 background: transparent;
+width: 1024px;
+margin: auto;
 }
