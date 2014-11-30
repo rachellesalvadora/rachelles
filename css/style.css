@@ -408,9 +408,42 @@ width: 1024px;
 margin: auto;
 }
 
-.playground-top {
+.weigh-top {
 padding-top: 50px;
 font-size: 70px;
 margin-top: 0;
 font-weight: 100;
+}
+
+
+.weigh-p {
+font-size: 26px;
+text-align: center;
+font-weight: 100;
+}
+
+.front-end {
+float: left;
+font-size: 20px;
+width: 213px;
+border: rgb(255, 255, 255) solid 4px;
+padding: 88px 0 88px 54px;
+border-radius: 50%;
+margin-top: 310px;
+color: rgb(255, 255, 255);
+background-color: rgba(0, 0, 0, 0.36);
+text-decoration: underline;
+}
+
+.back-end {
+float: right;
+font-size: 20px;
+width: 213px;
+border: rgb(255, 255, 255) solid 4px;
+padding: 88px 0 88px 54px;
+border-radius: 50%;
+margin-top: 100px;
+color: rgb(255, 255, 255);
+background-color: rgba(0, 0, 0, 0.36);
+text-decoration: underline;
 }
